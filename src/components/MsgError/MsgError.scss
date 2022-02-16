@@ -1,0 +1,17 @@
+.contentError {
+    margin: 150px auto;
+    border-radius: 3px;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    color: white;
+    background-color: #cb4335;
+    z-index: 10;
+    .buttonClose{
+        display: block;
+        width: 25px;
+        float: right;
+        cursor: pointer;
+    }
+}

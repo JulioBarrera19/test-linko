@@ -1,0 +1,43 @@
+.contentProduct {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 1rem;
+  .cardProduct{
+      height: 350px;
+      padding: 5px;
+      &:hover{
+          box-shadow: 1px 1px 10px 3px #afafaf;
+          cursor: pointer;
+      }
+  }
+  .contentImgProduct {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    .imgProduct {
+      height: 100%;
+      max-width: 200px;
+    }
+  }
+  .titleProduct {
+    margin: 5px 2rem;
+  }
+  .priceProduct {
+      margin: 0px;
+      font-weight: bold;
+  }
+}
+
+@media (max-width: 350px) {
+    .contentImgProduct{
+        height: 150px !important;
+        width: 150px !important;
+        .imgProduct{
+            height: 100%;
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+  }

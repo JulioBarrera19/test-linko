@@ -1,0 +1,43 @@
+.contentDetail {
+  margin: 0 !important;
+  width: 100%;
+  padding: 3rem 1rem;
+  .title {
+    text-align: center;
+  }
+  .contentImg {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    img {
+      height: 100%;
+      max-width: 200px;
+    }
+  }
+  .price {
+    font-weight: bold;
+  }
+  .btnCart {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  
+    .contentImg {
+      height: 100% !important;
+      width: 100% !important;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+}
+
+@media (min-width: 1000px) {
+    .contentDetail {
+        padding: 3rem 10%;
+    }
+}
